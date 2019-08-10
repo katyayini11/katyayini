@@ -3,7 +3,7 @@
 int main()
 {
   int X,P,sum=0;
-  scanf("%d %d",&x,P);
+  scanf("%d %d",&X,P);
   P=100-P;
   while(X>0)
   {
