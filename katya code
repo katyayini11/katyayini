@@ -3,12 +3,12 @@
 int main()
 {
   int X,P,sum=0;
-  scanf("%d %d",&x,&p);
+  scanf("%d %d",&x,P);
   P=100-P;
-  while(x>0)
+  while(X>0)
   {
-    sum=sum+x;
-    x=(p*x)/100;
+    sum=sum+X;
+    X=(P*X)/100;
   }
   printf("%d",sum);
   return 0;
